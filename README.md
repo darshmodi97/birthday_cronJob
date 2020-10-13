@@ -8,7 +8,7 @@
 2. After successfully installation you have to type the command in terminal 
 		- crontab -e 
    now press i then following script 
-	  * 0 * * python /home/path/to/birthdaymsg.py
+	  0 0 * * python /home/path/to/birthdaymsg.py
 
 
 		-The syntax is basically this:
