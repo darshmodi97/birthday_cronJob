@@ -56,6 +56,6 @@ if row :
             server.quit()
             
         except Exception as e :
-            print("error ",e)
+            logging.error("Error found :",e)
 else :
    pass
